@@ -1,5 +1,7 @@
-replicaCount: 1
-appName: example-service-4
-image:
-  repository: ghcr.io/omermishania/example-service-4
-  tag: main
+example-services:
+  example-service-4:
+    replicaCount: 1
+    appName: example-service-4
+    image:
+      repository: ghcr.io/omermishania/example-service-4
+      tag: main
