@@ -1,5 +1,5 @@
 replicaCount: 1
 appName: example-service-4
 image:
-  repository: ghcr.io/wib-com/placeholder
-  tag: v1.0.11
+  repository: ghcr.io/omermishania/example-service-4
+  tag: main
