@@ -16,5 +16,5 @@ spec:
       containers:
         - name: {{ .Values.global.appName }}
           image: {{ .Values.example_service_4.image.repository }}:{{ .Values.example_service_4.image.tag }}
-        imagePullSecrets:
+      imagePullSecrets:
         - name: {{ .Values.global.pullSecret}}
