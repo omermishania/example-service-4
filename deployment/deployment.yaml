@@ -15,4 +15,4 @@ spec:
     spec:
       containers:
         - name: {{ .Values.global.appName }}
-          image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
+          image: {{ .Values.example-service-4.image.repository }}:{{ .Values.example-service-4.image.tag }}
