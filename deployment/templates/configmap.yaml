@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: example-configmap-4-{{ .Values.global.appName }}
+data:
+  example.property.1: "value-1"
+  example.property.2: "value-2"
